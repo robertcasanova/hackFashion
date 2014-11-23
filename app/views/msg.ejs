@@ -1,0 +1,16 @@
+<% include header %>
+
+
+<div class="wall">
+    <h1><%= twit.text %></h1>
+</div>
+
+<% include footer %>
+<script>
+    // this could be written in backend
+    var socket = io.connect(location.origin);
+    socket.emit('new:twit',{
+        'text':  "<%= twit.text %>",
+        'tags':  "<%= twit.tags %>"
+    });
+</script>

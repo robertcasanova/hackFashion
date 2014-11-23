@@ -1,0 +1,111 @@
+@import "../components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+@font-face {
+    font-family: 'lynostan';
+    src: url('../font/lyno_stan-webfont.eot');
+    src: url('../font/lyno_stan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lyno_stan-webfont.woff2') format('woff2'),
+         url('../font/lyno_stan-webfont.woff') format('woff'),
+         url('../font/lyno_stan-webfont.ttf') format('truetype'),
+         url('../font/lyno_stan-webfont.svg#lynostan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lynojean';
+    src: url('../font/lyno_jean-webfont.eot');
+    src: url('../font/lyno_jean-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lyno_jean-webfont.woff2') format('woff2'),
+         url('../font/lyno_jean-webfont.woff') format('woff'),
+         url('../font/lyno_jean-webfont.ttf') format('truetype'),
+         url('../font/lyno_jean-webfont.svg#lynojean') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lynowalt';
+    src: url('../font/lyno_walt-webfont.eot');
+    src: url('../font/lyno_walt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lyno_walt-webfont.woff2') format('woff2'),
+         url('../font/lyno_walt-webfont.woff') format('woff'),
+         url('../font/lyno_walt-webfont.ttf') format('truetype'),
+         url('../font/lyno_walt-webfont.svg#lynowalt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lynoulys';
+    src: url('lyno_ulys-webfont.eot');
+    src: url('lyno_ulys-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lyno_ulys-webfont.woff2') format('woff2'),
+         url('lyno_ulys-webfont.woff') format('woff'),
+         url('lyno_ulys-webfont.ttf') format('truetype'),
+         url('lyno_ulys-webfont.svg#lynoulys') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body {
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.estroso {
+    background: url(../img/estroso.png) !important;
+    font-family: 'lynostan';
+    color: #22345e;
+}
+.anticonformista {
+    background: url(../img/anticonformista.png) !important;
+    font-family: 'lynojean';
+    color: #fff;
+}
+.dinamico {
+    background: url(../img/dinamico.png) !important;
+    font-family: 'lynowalt';
+    color: #4f0229;
+}
+.attento {
+    background: url(../img/attento.png) !important;
+    font-family: 'lynostan';
+    color: #fff;
+}
+
+.wall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    text-align: center;
+    h1 {
+        width: 50%;
+        text-align: center;
+        font-size: 80px;
+        text-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+    }
+}

@@ -1,0 +1,24 @@
+<% include header %>
+    <div class="container">
+        <div class="row">
+            <h1><%-title %></h1>
+            <p>Welcome to <%-title %></p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <form action="" method="POST">
+                    <textarea name="msg" id="" cols="30" rows="10" class="inputGroup"></textarea>
+                    <button type="submit" class="btn btn-lg btn-brand">Invia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <ul>
+        <% for(var i=0; i<twits.length; i++) {%>
+            <li><%= twits[i].text %></li>
+        <% } %>
+    </ul>
+
+<% include footer %>
